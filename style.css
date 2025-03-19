@@ -11,7 +11,7 @@ body {
     text-align: center;
     background-color: #121212;
     color: white;
-    background-image: url('bg.jpg');
+    background-image: url('bgggg.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,11 +81,11 @@ h1 {
     font-size: 4rem;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, #262322, #1b1817);
     background-clip: text;
     color: transparent;
-    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
-    animation: glow 1.5s infinite alternate;
+    /* text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+    animation: glow 1.5s infinite alternate; */
     padding: 10px;
 }
 
