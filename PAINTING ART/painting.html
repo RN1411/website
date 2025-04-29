@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PAINTING ART</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link rel="stylesheet" href="painting.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">VIRTUAL ART GALLERY</a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="controls">
+      <input type="text" id="search-input" placeholder="Search artworks...">
+    </div>
+    <div class="cart-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count">0</span>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <a href="../index.html">All</a>
+    <a href="../PAINTING ART/painting.html" class="active">PAINTING ART</a>
+    <a href="../SKECHES ART/sketch.html">SKETCHES ART</a>
+    <a href="../DIGITAL ART/digital.html">DIGITAL ART</a>
+  </div>
+  <h1>PAINTING</h1>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <!-- Artworks will be dynamically loaded here -->
+  </section>
+  
+  <!-- Cart Notification -->
+  <div class="cart-notification" id="cart-notification">
+    Item added to cart!
+  </div>
+
+  <!-- Footer -->
+  <footer class="about">
+    <div class="footer-container">
+      <div class="footer-about" data-aos="fade-up">
+        <h2>Virtual Art Gallery</h2>
+        <p>© 2025 Virtual Art Gallery | Designed by RAHUL NIRWAN & SUNITA GARIYA</p>
+      </div>
+      
+      <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="200">
+        <h3>Subscribe</h3>
+        <form action="#">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      
+      <div class="footer-social" data-aos="fade-up" data-aos-delay="300">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 Virtual Art Gallery | Designed by RAHUL NIRWAN & SUNITA GARIYA</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
+  <script src="painting.js"></script>
+</body>
+</html>

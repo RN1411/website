@@ -1,105 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <title>Virtual Art Galleries</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <title>VIRTUAL ART GALLERY</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Home Page -->
-    <div id="homePage">
-        <h1>Welcome to Virtual Art Gallery</h1>
-        <p>Explore amazing artworks from talented artists!</p>
-        <button onclick="enterGallery()">Enter Gallery</button>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">VIRTUAL ART GALLERY</a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="controls">
+      <input type="text" id="search-input" placeholder="Search artworks...">
     </div>
-
-    <!-- Gallery Page (Initially Hidden) -->
-    <div id="galleryPage" style="display: none;">
-        <h1>Virtual Art Gallery</h1>
-        
-        <!-- Filter Buttons -->
-        <div class="filter-buttons">
-            <button onclick="filterImages('all')" class="active">All</button>
-            <button onclick="filterImages('painting')">Paintings</button>
-            <button onclick="filterImages('sketch')">Sketches</button>
-            <button onclick="filterImages('digital')">Digital Art</button>
-        </div>
-
-        <!-- Gallery -->
-        <div class="gallery">
-                <!--painting art-->
-            <a href="painting art/p25.jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p25.jpg" alt="Beautiful Birds"></a>
-            <a href="painting art/p24.jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p24.jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p23.jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p23.jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p22.jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p22.jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p21 (2).jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p21 (2).jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p20 (2).jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p20 (2).jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p17 (2).jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p17 (2).jpg" alt="Abstract Painting"></a>
-            <a href="painting art/p15.jpg" data-lightbox="gallery" class="gallery-item painting"><img
-                    src="painting art/p15.jpg" alt="Abstract Painting"></a>
-                     <!--skech art-->
-            <a href="skech art/s1.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s1.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s2.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s2.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s3.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s3.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s4.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s4.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s5.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s5.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s6.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s6.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s7.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s7.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s8.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s8.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s11.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s11.jpg" alt="Vintage Sketch"></a>
-            <a href="skech art/s10.jpg" data-lightbox="gallery" class="gallery-item sketch"><img
-                    src="skech art/s10.jpg" alt="Vintage Sketch"></a>
-                     <!--digital art/-->
-            <a href="digital art/d1.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d1.jpg" alt="Blue Room"></a>
-            <a href="digital art/d2.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d2.jpg" alt="Blue Room"></a>
-            <a href="digital art/d3.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d3.jpg" alt="Blue Room"></a>
-            <a href="digital art/d4.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d4.jpg" alt="Blue Room"></a>
-            <a href="digital art/d5.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d5.jpg" alt="Blue Room"></a>
-            <a href="digital art/d6.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d6.jpg" alt="Blue Room"></a>
-            <a href="digital art/d7.jpg" data-lightbox="gallery" class="gallery-item digital"><img
-                    src="digital art/d7.jpg" alt="Blue Room"></a>
-        </div>
-
-        <!-- Footer -->
-        <footer>
-            <p>&copy; 2025 Virtual Art Gallery | Designed by Rahul Nirwan & SUNITA GARIYA</p>
-            <div class="social-icons">
-                <a href="https://www.facebook.com/share/1EGk2kY6b8/">Facebook</a> | 
-                <a href="https://www.instagram.com/i_am_ldhrahulnirwan/">Instagram</a> | 
-            </div>
-        </footer>
+    <div class="cart-icon">
+      <i class="fas fa-shopping-cart"></i>
+      <span class="cart-count">0</span>
     </div>
+    <button onclick="logout()" class="logout-button">Logout</button>
+  </header>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-    <script src="script.js"></script>
+  <section class="hero" id="home">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="intro.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
 
+  <!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <a href="index.html" class="active">All</a>
+    <a href="./PAINTING ART/painting.html">PAINTING ART</a>
+    <a href="./SKECHES ART/sketch.html">SKETCHES ART</a>
+    <a href="./DIGITAL ART/digital.html">DIGITAL ART</a>
+  </div>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <!-- Artworks will be dynamically loaded here -->
+  </section>
+  
+  <!-- Cart Notification -->
+  <div class="cart-notification" id="cart-notification">
+    Item added to cart!
+  </div>
+
+  <!-- Footer -->
+  <footer class="about">
+    <div class="footer-container">
+      <div class="footer-about" data-aos="fade-up">
+        <h2>Virtual Art Gallery</h2>
+        <p>© 2025 Virtual Art Gallery | Designed by RAHUL NIRWAN & SUNITA GARIYA</p>
+      </div>
+      
+      <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-newsletter" data-aos="fade-up" data-aos-delay="200">
+        <h3>Subscribe</h3>
+        <form action="#">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      
+      <div class="footer-social" data-aos="fade-up" data-aos-delay="300">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2025 Virtual Art Gallery | Designed by RAHUL NIRWAN & SUNITA GARIYA</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+
+  <script src="script.js"></script>
 </body>
-
 </html>

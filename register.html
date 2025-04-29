@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register - Virtual Art Gallery</title>
+  <link rel="stylesheet" href="register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="form-container">
+    <h2>Create Account</h2>
+    
+    <div class="input-group">
+      <i class="fas fa-user"></i>
+      <input type="text" id="regUsername" placeholder="Username" required>
+      <div class="error-message" id="username-error">Username must be at least 4 characters</div>
+    </div>
+    
+    <div class="input-group">
+      <i class="fas fa-envelope"></i>
+      <input type="email" id="regEmail" placeholder="Email" required>
+      <div class="error-message" id="email-error">Please enter a valid email</div>
+    </div>
+    
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" id="regPassword" placeholder="Password" required>
+      <div class="password-strength">
+        <div class="strength-meter" id="strength-meter"></div>
+      </div>
+      <div class="error-message" id="password-error">Password must be at least 8 characters</div>
+    </div>
+    
+    <div class="input-group">
+      <i class="fas fa-lock"></i>
+      <input type="password" id="regConfirmPassword" placeholder="Confirm Password" required>
+      <div class="error-message" id="confirm-error">Passwords don't match</div>
+    </div>
+    
+    <button onclick="validateRegistration()">Register</button>
+    
+    <div class="success-message" id="success-message">
+      Registration successful! Redirecting...
+    </div>
+    
+    <p>Already have an account? <a href="login.html">Login here</a></p>
+  </div>
+
+  <script src="regiter.js"></script>
+</body>
+</html>
