@@ -33,7 +33,7 @@ function validateLogin() {
     if (localStorage.getItem(username) === password) {
       localStorage.setItem("loggedIn", "true");
       localStorage.setItem("currentUser", username);
-      window.location.href = "index.html";
+      window.location.href = "main.html";
     } else {
       alert("Invalid username or password. Please try again.");
     }
