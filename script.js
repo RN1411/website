@@ -152,7 +152,7 @@
   function logout() {
     // In a real app, you would clear the session properly
     alert('Logged out successfully');
-    window.location.href = 'login.html';
+    window.location.href = 'index.html';
   }
 
   // Improved Search Functionality
@@ -242,7 +242,7 @@ const artwork = [
                         if (localStorage.getItem(username) === password) {
                           localStorage.setItem("loggedIn", "true");
                           localStorage.setItem("currentUser", username);
-                          window.location.href = "index.html";
+                          window.location.href = "main.html";
                         } else {
                           alert("Invalid username or password. Please try again.");
                         }
