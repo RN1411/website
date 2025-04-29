@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>PAINTING ART</title>
+  <title>VIRTUAL ART GALLERY</title>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
-  <link rel="stylesheet" href="painting.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -25,6 +25,7 @@
       <i class="fas fa-shopping-cart"></i>
       <span class="cart-count">0</span>
     </div>
+    <button onclick="logout()" class="logout-button">Logout</button>
   </header>
 
   <section class="hero" id="home">
@@ -36,12 +37,11 @@
 
   <!-- Filter Buttons -->
   <div class="filter-buttons">
-    <a href="../main.html">All</a>
-    <a href="../PAINTING ART/painting.html" class="active">PAINTING ART</a>
-    <a href="../SKECHES ART/sketch.html">SKETCHES ART</a>
-    <a href="../DIGITAL ART/digital.html">DIGITAL ART</a>
+    <a href="main.html" class="active">All</a>
+    <a href="./PAINTING ART/painting.html">PAINTING ART</a>
+    <a href="./SKECHES ART/sketch.html">SKETCHES ART</a>
+    <a href="./DIGITAL ART/digital.html">DIGITAL ART</a>
   </div>
-  <h1>PAINTING</h1>
 
   <!-- Gallery -->
   <section class="gallery" id="gallery">
@@ -99,6 +99,6 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   
 
-  <script src="painting.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
