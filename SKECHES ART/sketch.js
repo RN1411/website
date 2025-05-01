@@ -11,64 +11,37 @@
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "sketche/s1.jpg"
     },
     {
       id: 2,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "sketche/s2.jpg"
     },
     {
       id: 3,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image:"sketche/s3.jpg"
     },
     {
       id: 4,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "sketche/s4.jpg"
     },
     {
       id: 5,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "sketche/s5.jpg"
     },
-    {
-      id: 6,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
-    {
-      id: 7,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
-    {
-      id: 8,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
-    {
-      id: 9,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
+
   ];
 
   // Cart functionality

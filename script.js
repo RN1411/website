@@ -11,63 +11,63 @@
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "paintings/p1.jpg"
+      image: "p1.jpg"
     },
     {
       id: 2,
       title: "Pencil Portrait",
       category: "sketches",
       price: 450,
-      image: "skeches/s1.jpg"
+      image: "s1.jpg"
     },
     {
       id: 3,
       title: "Futuristic City",
       category: "digital",
       price: 800,
-      image: "digital/d1.jpg"
+      image: "d1.avif"
     },
     {
       id: 4,
       title: "Mountain Landscape",
       category: "paintings",
       price: 1500,
-      image: "paintings/p10.jpg"
+      image: "p2.jpg"
     },
     {
       id: 5,
       title: "Old Man Sketch",
       category: "sketches",
       price: 350,
-      image: "skeches/s10.jpg"
+      image: "s2.jpg"
     },
     {
       id: 6,
       title: "Abstract Dreams",
       category: "digital",
       price: 950,
-      image: "digital/d3.jpg"
+      image: "d2.jpg"
     },
     {
       id: 7,
       title: "Floral Harmony",
       category: "paintings",
       price: 1800,
-      image: "paintings/p11.jpg"
+      image: "p3.jpg"
     },
     {
       id: 8,
       title: "Charcoal Study",
       category: "sketches",
       price: 400,
-      image: "skeches/s11.jpg"
+      image: "s3.jpg"
     },
     {
       id: 9,
       title: "Cyberpunk Streets",
       category: "digital",
       price: 1100,
-      image: "digital/d4.jpg"
+      image: "d3.jpg"
     },
   ];
 

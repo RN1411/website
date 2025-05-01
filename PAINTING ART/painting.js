@@ -8,66 +8,66 @@
   const artworks = [
     {
       id: 1,
-      title: "Sunset Over The Lake",
+      title: "Beautiful-Vintage",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p1.jpg"
     },
     {
       id: 2,
-      title: "Sunset Over The Lake",
+      title: "romanticate",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p2.jpg"
     },
     {
       id: 3,
-      title: "Sunset Over The Lake",
+      title: "Couple-hand-drawn",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p3.jpg"
     },
     {
       id: 4,
-      title: "Sunset Over The Lake",
+      title: "Graffiti-children-bicycle",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p4.jpg"
     },
     {
       id: 5,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p5.jpg"
     },
     {
       id: 6,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p6.jpg"
     },
     {
       id: 7,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p7.jpg"
     },
     {
       id: 8,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p8.jpg"
     },
     {
       id: 9,
       title: "Sunset Over The Lake",
       category: "paintings",
       price: 1200,
-      image: "painting/p15.jpg"
+      image: "painting/p23.jpg"
     },
   ];
 
