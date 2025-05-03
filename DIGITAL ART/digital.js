@@ -48,27 +48,7 @@
       price: 1200,
       image: "digital/d6.avif"
     },
-    {
-      id: 7,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
-    {
-      id: 8,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
-    {
-      id: 9,
-      title: "Sunset Over The Lake",
-      category: "paintings",
-      price: 1200,
-      image: "painting/p15.jpg"
-    },
+    
   ];
 
   // Cart functionality
