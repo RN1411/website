@@ -83,17 +83,21 @@ header {
   }
 
   h1 {
-    text-align: center;
-    font-size: 1.8rem;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 4rem;
+    background: linear-gradient(135deg, #FFD700, #FFA500, #FF8C00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     letter-spacing: 3px;
     font-weight: bold;
-    background: linear-gradient(to right, #accbee, #949fac);
-    background-clip: text;
-    color: transparent;
-    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    margin-bottom: 30px;
   }
+  
+  
 
-.hero {
+/* .hero {
   position: relative;
   height: 50vh;
   overflow: hidden;
@@ -104,7 +108,7 @@ header {
   height: 100%;
   object-fit: cover;
   /* filter: brightness(0.5); */
-}
+
 
 .hero-overlay {
   position: absolute;
@@ -124,7 +128,7 @@ header {
 .hero-overlay p {
   font-size: 1.3rem;
   letter-spacing: 2px;
-}
+} */
 
 .filter-buttons {
   display: flex;
