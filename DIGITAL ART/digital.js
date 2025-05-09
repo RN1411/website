@@ -48,6 +48,174 @@
       price: 1200,
       image: "digital/d6.avif"
     },
+    {
+      id: 1,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d1.avif "
+    },
+    {
+      id: 2,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d2.jpg"
+    },
+    {
+      id: 3,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d3.jpg"
+    },
+    {
+      id: 4,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d4.avif"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d5.avif"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d6.avif"
+    },
+    {
+      id: 1,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d1.avif "
+    },
+    {
+      id: 2,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d2.jpg"
+    },
+    {
+      id: 3,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d3.jpg"
+    },
+    {
+      id: 4,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d4.avif"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d5.avif"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d6.avif"
+    },
+    {
+      id: 1,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d1.avif "
+    },
+    {
+      id: 2,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d2.jpg"
+    },
+    {
+      id: 3,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d3.jpg"
+    },
+    {
+      id: 4,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d4.avif"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d5.avif"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d6.avif"
+    },
+    {
+      id: 1,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d1.avif "
+    },
+    {
+      id: 2,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d2.jpg"
+    },
+    {
+      id: 3,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d3.jpg"
+    },
+    {
+      id: 4,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d4.avif"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d5.avif"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "digital/d6.avif"
+    },
     
   ];
 

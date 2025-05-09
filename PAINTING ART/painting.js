@@ -69,6 +69,132 @@
       price: 1200,
       image: "painting/p23.jpg"
     },
+     {
+      id: 1,
+      title: "Beautiful-Vintage",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p1.jpg"
+    },
+    {
+      id: 2,
+      title: "romanticate",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p2.jpg"
+    },
+    {
+      id: 3,
+      title: "Couple-hand-drawn",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p3.jpg"
+    },
+    {
+      id: 4,
+      title: "Graffiti-children-bicycle",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p4.jpg"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p5.jpg"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p6.jpg"
+    },
+    {
+      id: 7,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p7.jpg"
+    },
+    {
+      id: 8,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p8.jpg"
+    },
+    {
+      id: 9,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p23.jpg"
+    },
+     {
+      id: 1,
+      title: "Beautiful-Vintage",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p1.jpg"
+    },
+    {
+      id: 2,
+      title: "romanticate",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p2.jpg"
+    },
+    {
+      id: 3,
+      title: "Couple-hand-drawn",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p3.jpg"
+    },
+    {
+      id: 4,
+      title: "Graffiti-children-bicycle",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p4.jpg"
+    },
+    {
+      id: 5,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p5.jpg"
+    },
+    {
+      id: 6,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p6.jpg"
+    },
+    {
+      id: 7,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p7.jpg"
+    },
+    {
+      id: 8,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p8.jpg"
+    },
+    {
+      id: 9,
+      title: "Sunset Over The Lake",
+      category: "paintings",
+      price: 1200,
+      image: "painting/p23.jpg"
+    },
   ];
 
   // Cart functionality

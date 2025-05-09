@@ -86,7 +86,7 @@ header {
     font-family: 'Cinzel', serif; /* Elegant luxury font */
     font-size: 48px;
     color: transparent;
-    background: linear-gradient(90deg, #d4af37, #fff8dc); /* Gold-like gradient */
+    background: linear-gradient(90deg, #165ad8, #1eeaed); /* Gold-like gradient */
     -webkit-background-clip: text;
     background-clip: text;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
@@ -111,7 +111,7 @@ header {
   /* filter: brightness(0.5); */
 
 
-.hero-overlay {
+/* .hero-overlay {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -129,7 +129,7 @@ header {
 .hero-overlay p {
   font-size: 1.3rem;
   letter-spacing: 2px;
-} */
+}  */
 
 .filter-buttons {
   display: flex;
